@@ -2,16 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    body {
-        @apply antialiased bg-white text-slate-900;
-    }
-}
-
-.premium-btn {
-    @apply px-10 py-5 bg-slate-900 text-white font-black uppercase tracking-widest hover:bg-gold hover:text-slate-900 transition-all active:scale-95;
-}
-
-.luxury-card {
-    @apply relative overflow-hidden bg-white border border-slate-100 hover:border-gold transition-all duration-500;
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
