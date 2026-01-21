@@ -1,26 +1,31 @@
 # 19-nextjs-ecommerce-starter
 
-✨ Professional Repository Showcase Template
-
-## Live Deployments
-
-- **GitHub Pages:** https://mk-knight23.github.io/19-nextjs-ecommerce-starter/
-- **Vercel:** https://19-nextjs-ecommerce-starter.vercel.app
-
-Status: 🟡 GH Pages Live | Vercel Pending (Daily Limit)
+✨ A high-performance, developer-first e-commerce foundation for React. Featuring advanced product management, sophisticated cart logic, and a lightning-fast architectural core for modern digital storefronts.
 
 ## Features
-- 📱 Mobile Responsive
-- ⚡ Fast Performance
-- 🎨 Modern UI/UX
+- 🛒 Professional Cart & Checkout Logic Foundations
+- 📦 Sophisticated Product Data Management
+- 📱 Responsive Multi-Resolution Interaction Design
+- ⚛️ Engineered with React 18
+- ⚡ High-Speed Pipeline via Vite 6
+
+## Tech Stack
+- **Frontend**: React 18, Tailwind CSS v4
+- **Build Tool**: Vite 6 (Modernized from Next.js)
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Styling**: Modern CSS Variables & Utility Patterns
 
 ## Quick Start
 ```bash
-git clone https://github.com/mk-knight23/19-nextjs-ecommerce-starter.git
-cd 19-nextjs-ecommerce-starter
 npm install
 npm run dev
 ```
 
-## License
-MIT
+## Documentation
+Additional technical details can be found in the [docs/](docs/) directory.
+
+## Live Deployment
+GitHub Pages: [Pending]
+Status: 🟡 Initializing Pipeline
+Last Updated: 2026-01-21
