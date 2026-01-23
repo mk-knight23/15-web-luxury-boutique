@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gold: #d4af37;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-slate-900 antialiased selection:bg-gold/30;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+}
+
+@layer components {
+    .premium-btn {
+        @apply px-12 py-5 bg-slate-900 text-white font-black uppercase tracking-widest hover:bg-gold hover:text-slate-900 transition-all shadow-2xl shadow-slate-900/10 active:scale-95 text-xs;
+    }
+
+    .luxury-card {
+        @apply bg-white border border-slate-50 overflow-hidden transition-all hover:shadow-2xl hover:shadow-slate-900/5;
+    }
+}
