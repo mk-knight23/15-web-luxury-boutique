@@ -206,7 +206,7 @@ export default function Home() {
                     </div>
 
                     <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-black text-slate-400 uppercase tracking-widest">
-                        <p>© 2024 MK_LUXURY_ECOMMERCE • 19/30 DISPATCHED</p>
+                        <p>© 2026 MK_LUXE // ZENITH • 19/30 DISPATCHED</p>
                         <div className="flex gap-10">
                             <a href="#" className="hover:text-gold transition-colors">Client Privacy</a>
                             <a href="#" className="hover:text-gold transition-colors">Ethical Protocol</a>
