@@ -1,5 +1,5 @@
 {
-  "name": "zenith-luxury-ecommerce",
+  "name": "15-web-luxury-boutique",
   "private": false,
   "version": "2.1.0",
   "description": "Premium luxury e-commerce interface with React 19, Vite 6, and Tailwind CSS v4.",
@@ -25,9 +25,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mk-knight23/zenith-luxury-ecommerce.git"
+    "url": "git+https://github.com/mk-knight23/15-web-luxury-boutique.git"
   },
-  "homepage": "https://mk-knight23.github.io/zenith-luxury-ecommerce/",
+  "homepage": "https://mk-knight23.github.io/15-web-luxury-boutique/",
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^12.29.2",

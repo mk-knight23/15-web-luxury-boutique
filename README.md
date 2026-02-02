@@ -1,6 +1,6 @@
-# Zenith Luxury E-Commerce
+# Web Luxury Boutique
 
-✨ A high-performance, developer-first e-commerce foundation for React. Featuring advanced product management, sophisticated cart logic, and a lightning-fast architectural core for modern digital storefronts.
+✨ A high-performance luxury boutique storefront for React. Featuring elegant product presentations, sophisticated cart logic, and a lightning-fast architectural core for premium digital shopping experiences.
 
 ## Features
 - 🛒 Professional Cart & Checkout Logic Foundations
@@ -26,7 +26,7 @@ npm run dev
 - [Deployment Guide](docs/DEPLOY.md)
 
 ## Live Deployment
-- **GitHub Pages**: [https://mk-knight23.github.io/zenith-luxury-ecommerce/](https://mk-knight23.github.io/zenith-luxury-ecommerce/)
+- **GitHub Pages**: [https://mk-knight23.github.io/15-web-luxury-boutique/](https://mk-knight23.github.io/15-web-luxury-boutique/)
 - **Status**: 🟢 Live
 - **Modernized**: 2026-02-02
 
@@ -35,8 +35,8 @@ npm run dev
 
 ## 🌐 Live Deployments
 
-- Vercel: https://zenith-luxury-ecommerce.vercel.app
-- GitHub Pages: https://mk-knight23.github.io/zenith-luxury-ecommerce/
+- Vercel: https://15-web-luxury-boutique.vercel.app
+- GitHub Pages: https://mk-knight23.github.io/15-web-luxury-boutique/
 
 Status: 🟢 Deployments Live
 Last Updated: 2026-02-02
