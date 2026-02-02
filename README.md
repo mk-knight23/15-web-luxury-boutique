@@ -5,6 +5,19 @@
 ## 🚀 Live Demo
 **[View Live on Vercel](https://15-web-luxury-boutique.vercel.app)**
 
+## 📦 Deployment
+
+### Render (One-Click Deploy)
+This repository includes a `render.yaml` blueprint for automated deployment:
+1. Visit [dashboard.render.com](https://dashboard.render.com)
+2. Click "New +" → "Blueprint"
+3. Connect repository: `mk-knight23/15-web-luxury-boutique`
+4. Render will auto-detect and apply the blueprint configuration
+
+### Manual Deployment
+- **Build Command**: `npm run build`
+- **Publish Directory**: `dist`
+
 ## Features
 - 🛒 Professional Cart & Checkout Logic Foundations
 - 📦 Sophisticated Product Data Management
