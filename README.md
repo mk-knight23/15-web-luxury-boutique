@@ -1,4 +1,4 @@
-# 19-nextjs-ecommerce-starter
+# Zenith Luxury E-Commerce
 
 ✨ A high-performance, developer-first e-commerce foundation for React. Featuring advanced product management, sophisticated cart logic, and a lightning-fast architectural core for modern digital storefronts.
 
@@ -6,12 +6,12 @@
 - 🛒 Professional Cart & Checkout Logic Foundations
 - 📦 Sophisticated Product Data Management
 - 📱 Responsive Multi-Resolution Interaction Design
-- ⚛️ Engineered with React 18
+- ⚛️ Engineered with React 19
 - ⚡ High-Speed Pipeline via Vite 6
 
 ## Tech Stack
-- **Frontend**: React 18, Tailwind CSS v4
-- **Build Tool**: Vite 6 (Modernized from Next.js)
+- **Frontend**: React 19, Tailwind CSS v4
+- **Build Tool**: Vite 6
 - **Icons**: Lucide React
 - **Animations**: Framer Motion
 - **Styling**: Modern CSS Variables & Utility Patterns
@@ -26,17 +26,17 @@ npm run dev
 - [Deployment Guide](docs/DEPLOY.md)
 
 ## Live Deployment
-- **GitHub Pages**: [https://mk-knight23.github.io/19-nextjs-ecommerce-starter/](https://mk-knight23.github.io/19-nextjs-ecommerce-starter/)
+- **GitHub Pages**: [https://mk-knight23.github.io/zenith-luxury-ecommerce/](https://mk-knight23.github.io/zenith-luxury-ecommerce/)
 - **Status**: 🟢 Live
-- **Modernized**: 2026-01-23
+- **Modernized**: 2026-02-02
 
 ---
 *Maintained by [Kazi Musharraf](https://github.com/mk-knight23)*
 
 ## 🌐 Live Deployments
 
-- Vercel: https://19-nextjs-ecommerce-starter.vercel.app
-- GitHub Pages: https://mk-knight23.github.io/19-nextjs-ecommerce-starter/
+- Vercel: https://zenith-luxury-ecommerce.vercel.app
+- GitHub Pages: https://mk-knight23.github.io/zenith-luxury-ecommerce/
 
-Status: 🟢 Deployments Live  
-Last Updated: 2026-01-23
+Status: 🟢 Deployments Live
+Last Updated: 2026-02-02

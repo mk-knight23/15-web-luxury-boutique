@@ -13,14 +13,14 @@ export default function Home() {
     const [activeTab, setActiveTab] = useState('New Arrivals');
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white" role="application" aria-label="Zenith Luxury E-Commerce">
             {/* Top Banner */}
             <div className="bg-slate-900 text-white text-[10px] py-3 text-center font-black uppercase tracking-[0.4em]">
                 Exclusive Drop: Zenith Collection v.102 Live • Multi-Cloud Sync Enabled
             </div>
 
             {/* Navigation */}
-            <nav className="h-24 px-8 border-b border-slate-100 sticky top-0 bg-white/90 backdrop-blur-xl z-[100]">
+            <nav className="h-24 px-8 border-b border-slate-100 sticky top-0 bg-white/90 backdrop-blur-xl z-[100]" role="navigation" aria-label="Main navigation">
                 <div className="max-w-7xl mx-auto h-full flex justify-between items-center text-slate-900">
                     <div className="flex items-center gap-2">
                         <div className="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center text-white rotate-12 group hover:rotate-0 transition-transform cursor-pointer">
@@ -31,20 +31,20 @@ export default function Home() {
 
                     <div className="hidden lg:flex items-center gap-12">
                         {['Collections', 'Atelier', 'Tech Spec', 'Vault'].map(link => (
-                            <a key={link} href="#" className="text-xs font-black uppercase tracking-[0.2em] hover:text-gold transition-colors">{link}</a>
+                            <a key={link} href="#" className="text-xs font-black uppercase tracking-[0.2em] hover:text-gold transition-colors" aria-label={`Navigate to ${link}`}>{link}</a>
                         ))}
                     </div>
 
                     <div className="flex items-center gap-6">
-                        <button className="p-2 hover:bg-slate-50 rounded-full transition-all"><Search className="w-5 h-5" /></button>
-                        <button className="px-8 py-3 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest hover:bg-gold hover:text-slate-900 transition-all active:scale-95 shadow-xl shadow-slate-900/10">
+                        <button className="p-2 hover:bg-slate-50 rounded-full transition-all" aria-label="Search products"><Search className="w-5 h-5" /></button>
+                        <button className="px-8 py-3 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest hover:bg-gold hover:text-slate-900 transition-all active:scale-95 shadow-xl shadow-slate-900/10" aria-label="Explore products">
                             Explore Now
                         </button>
                     </div>
                 </div>
             </nav>
 
-            <main>
+            <main role="main">
                 {/* Hero Section */}
                 <section className="relative h-[90vh] overflow-hidden bg-slate-50 flex items-center px-8">
                     <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none" />
