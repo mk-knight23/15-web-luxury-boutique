@@ -1,2 +1,2 @@
 // Validator
-module.exports = { validate: (data) => ({ valid: true }) }
+module.exports = { validate: data => ({ valid: true }) };

@@ -1,2 +1,2 @@
 // Error Handler
-module.exports = { handleError: (err) => console.error(err) }
+module.exports = { handleError: err => console.error(err) };

@@ -1,2 +1,2 @@
 // Performance
-module.exports = { memoize: (fn) => fn }
+module.exports = { memoize: fn => fn };

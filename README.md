@@ -1,42 +1,38 @@
-# 19-nextjs-ecommerce-starter
+# 15-web-luxury-boutique
 
-✨ A high-performance, developer-first e-commerce foundation for React. Featuring advanced product management, sophisticated cart logic, and a lightning-fast architectural core for modern digital storefronts.
+[![CI/CD](https://github.com/mk-knight23/15-web-luxury-boutique/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/15-web-luxury-boutique/actions/workflows/ci.yml)
+[![Vercel](https://img.shields.io/badge/Vercel-black?logo=vercel)](https://15-web-luxury-boutique.vercel.app)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify)](https://15-web-luxury-boutique.netlify.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Features
-- 🛒 Professional Cart & Checkout Logic Foundations
-- 📦 Sophisticated Product Data Management
-- 📱 Responsive Multi-Resolution Interaction Design
-- ⚛️ Engineered with React 18
-- ⚡ High-Speed Pipeline via Vite 6
+## 🚀 Live Demo
 
-## Tech Stack
-- **Frontend**: React 18, Tailwind CSS v4
-- **Build Tool**: Vite 6 (Modernized from Next.js)
-- **Icons**: Lucide React
-- **Animations**: Framer Motion
-- **Styling**: Modern CSS Variables & Utility Patterns
+- **Vercel**: https://15-web-luxury-boutique.vercel.app
+- **Netlify**: https://15-web-luxury-boutique.netlify.app
+- **GitHub Pages**: https://mk-knight23.github.io/15-web-luxury-boutique/
 
-## Quick Start
+## 🛠️ Tech Stack
+
+- React 19 + TypeScript 5
+- Vite 6 + Tailwind CSS v4
+- Vitest + React Testing Library
+
+## 🏁 Quick Start
+
 ```bash
+git clone https://github.com/mk-knight23/15-web-luxury-boutique.git
+cd 15-web-luxury-boutique
 npm install
 npm run dev
-## Documentation
-- [Architecture Overview](docs/ARCHITECTURE.md)
-- [Design System](docs/DESIGN.md)
-- [Deployment Guide](docs/DEPLOY.md)
+```
 
-## Live Deployment
-- **GitHub Pages**: [https://mk-knight23.github.io/19-nextjs-ecommerce-starter/](https://mk-knight23.github.io/19-nextjs-ecommerce-starter/)
-- **Status**: 🟢 Live
-- **Modernized**: 2026-01-23
+## 🧪 Testing
 
----
-*Maintained by [Kazi Musharraf](https://github.com/mk-knight23)*
+```bash
+npm test
+npm run test:coverage
+```
 
-## 🌐 Live Deployments
+## 📄 License
 
-- Vercel: https://19-nextjs-ecommerce-starter.vercel.app
-- GitHub Pages: https://mk-knight23.github.io/19-nextjs-ecommerce-starter/
-
-Status: 🟢 Deployments Live  
-Last Updated: 2026-01-23
+MIT License
