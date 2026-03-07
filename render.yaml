@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: 15-web-luxury-boutique
+    env: node
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    
+    # FIXED: Resolved dependency conflicts
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.0  # Updated to latest LTS
+      - key: NPM_CONFIG_LEGACY_PEER_DEPS
+        value: "false"  # FIXED: Using proper peer dependency resolution
+      - key: NODE_ENV
+        value: production
+      - key: NPM_CONFIG_PRODUCTION
+        value: "true"  # FIXED: Don't install dev dependencies
+      - key: REACT_VERSION
+        value: "19.0.0"  # FIXED: Matched with package.json
+      
+    buildFilter:
+      paths:
+        - package.json
+        - package-lock.json
+        - src/**
+        - public/**
+        - vite.config.ts
+        - tsconfig.json
+        
+    # FIXED: Added health check configuration
+    healthCheckPath: /health
+    healthCheckTimeout: 30
