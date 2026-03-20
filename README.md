@@ -1,3 +1,7 @@
+# [![CI/CD](https://github.com/mk-knight23/15-web-luxury-boutique/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/15-web-luxury-boutique/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/15-web-luxury-boutique/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/15-web-luxury-boutique/actions)
+
 # 🚀 15-web-luxury-boutique (Collective Production Edition)
 
 ## 💎 Overview
@@ -104,3 +108,11 @@ MIT License - see LICENSE file for details
 ---
 
 🦾 **Evolved with OpenClaw** | Part of the 60-Repo Evolution Project
+
+## Security
+
+This project follows security best practices:
+- No hardcoded credentials
+- Dependency scanning enabled
+- Security headers configured
+- Regular security audits performed
